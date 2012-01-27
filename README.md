@@ -1,0 +1,3 @@
+# configurations
+
+    npm install

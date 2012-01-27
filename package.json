@@ -1,0 +1,18 @@
+{
+  "author": "",
+  "name": "socket-test",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NCTU-TWT/socket-test.git"
+  },
+  "main": "server/app.js",
+  "engines": {
+    "node": "~0.6.6"
+  },
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*"
+  },
+  "devDependencies": {}
+}
