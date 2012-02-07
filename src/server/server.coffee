@@ -9,7 +9,7 @@ server.configure ->
     server.use express.bodyParser()
     server.use express.methodOverride()
     server.use server.router
-    server.use express.static __dirname + '#{ __dirname }/../browser'
+    server.use express.static __dirname + '#{ __dirname }/../client'
 
 server.configure 'development', ->
     server.use express.errorHandler
