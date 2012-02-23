@@ -10,7 +10,7 @@ server = net.createServer (client) ->
     client.on 'data', (data) ->
         EE.emit 'data', data.toString()
 
-server.listen '5100'
+server.listen '4900'
 
 
 
