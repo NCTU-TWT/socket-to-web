@@ -15,7 +15,7 @@
     });
   });
 
-  server.listen('4900');
+  server.listen('5100');
 
   io.sockets.on('connection', function(socket) {
     return EE.on('data', function(data) {
